@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+    <display-name>SALT TAP</display-name>
+    <resource-ref>
+        <res-ref-name>postgreSQL Datasource</res-ref-name>
+        <res-ref-name>jdbc/postgres</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+    </resource-ref>
+    <servlet>
+        <display-name>TAPService</display-name>
+        <servlet-name>TAPService</servlet-name>
+        <servlet-class>org.salt.tapservice.SALTTAPServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TAPService</servlet-name>
+        <url-pattern>/tap/*</url-pattern>
+    </servlet-mapping>
+</web-app>
