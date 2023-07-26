@@ -4,9 +4,37 @@
 <head>
   <title>SALT TAP</title>
 </head>
+<style>
+  h1 {text-align: center}
+  p {
+    font-size: 1.25rem;
+  }
+  .content {
+    display: table;
+    padding: 5px 15px 10px 15px;
+    min-height: 500px;
+    margin: 10px auto;
+    width: 990px;
+    color: #000;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px #888888;
+  }
+</style>
 <body>
-<h1><%= "Hello World!" %></h1>
+<h1><%= "SALT VO TAP" %></h1>
 <br/>
-<a href="tap">SALT TAP Servlet</a>
+<div class="content">
+  <p>
+    Welcome to the implementation of the Virtual Observatory Table Access Protocol
+    (<a href="http://www.ivoa.net/documents/TAP">TAP</a>) for <a href="https://www.salt.ac.za/">SALT</a>.
+    <br>
+    <br>
+    <br>
+    The SALT's TAP service provides interfaces to the catalogs and allows a rich variety of searches, including cone, box, polygon, or all-sky.
+    You can upload a table with multiple positions. The output can be a VO Table, a FITS table, or several other formats.
+    It also provides the option of selecting output columns, and performing functions on the results.
+  </p>
+  <H3><a href="tap" target="_blank">Using the SALT TAP service through a browser</a></H3>
+</div>
 </body>
 </html>
