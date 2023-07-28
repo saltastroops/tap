@@ -29,10 +29,6 @@
     (<a href="http://www.ivoa.net/documents/TAP">TAP</a>) for <a href="https://www.salt.ac.za/">SALT</a>.
     <br>
     <br>
-    <br>
-    The SALT's TAP service provides interfaces to the catalogs and allows a rich variety of searches, including cone, box, polygon, or all-sky.
-    You can upload a table with multiple positions. The output can be a VO Table, a FITS table, or several other formats.
-    It also provides the option of selecting output columns, and performing functions on the results.
   </p>
   <H3><a href="tap" target="_blank">Using the SALT TAP service through a browser</a></H3>
 </div>
