@@ -1,0 +1,7 @@
+<Context>
+    <Resource name="jdbc/postgres" auth="Container"
+              type="javax.sql.DataSource"
+              driverClassName="org.postgresql.Driver"
+              url="jdbc:postgresql://${sdb.url}/${sdb.database}"
+              username="${sdb.username}" password="${sdb.password}" maxTotal="10" />
+</Context>
