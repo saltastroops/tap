@@ -1,6 +1,8 @@
 # SALT TAP service
 TAP service implementation that supports the IVOA [TAP-1.1](http://www.ivoa.net/documents/TAP/20190927/) web service, aimed at loading astronomical catalogues the Southern African Large Telescope (SALT).
 
+This service was implemented by following and adapting code from [TAPTuto](http://cdsportal.u-strasbg.fr/taptuto/gettingstarted_servlet.html) demo.
+
 ## Dependencies
 - [Java 11+](https://www.oracle.com/za/java/technologies/downloads/archive/)
 - [Apache Tomcat 9.0.78](https://tomcat.apache.org/download-90.cgi)
