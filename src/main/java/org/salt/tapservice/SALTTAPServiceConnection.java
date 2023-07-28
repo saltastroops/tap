@@ -70,7 +70,9 @@ public class SALTTAPServiceConnection implements ServiceConnection {
 
     // Provider information:
     private final String PROVIDER = "SALT TAP";
-    private final String PROVIDER_DESCRIPTION = "SALT TAP service";
+    private final String PROVIDER_DESCRIPTION = "The SALT TAP service provides interfaces to the catalogs that allows a rich variety of searches, including cone, box, polygon, or all-sky.\n" +
+            "    You can upload a table with multiple positions. The output can be a VO Table, a FITS table, or several other formats.\n" +
+            "    It also provides the option of selecting output columns, and performing functions on the results.";
 
     private final List<OutputFormat> formats;
 
