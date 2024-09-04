@@ -1,0 +1,7 @@
+<Context>
+    <Resource name="jdbc/mysql" auth="Container"
+              type="javax.sql.DataSource"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://${sdb.url}/${sdb.database}"
+              username="${sdb.username}" password="${sdb.password}" maxTotal="10" />
+</Context>
